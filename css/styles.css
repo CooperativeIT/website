@@ -7777,9 +7777,9 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
-.text-muted a, #terms a {
+/* .text-muted a, #terms a {
   color: blue;
-}
+} */
 
 .text-black-50 {
   --bs-text-opacity: 1;
