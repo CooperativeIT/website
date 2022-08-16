@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  cooperativeit:
+    image: httpd:2.4-alpine
+    container_name: cooperativeit
+    volumes:
+      - ${FILE_PATH}:/usr/local/apache2/htdocs/
+      - ${FILE_PATH}/my-httpd.conf:/usr/local/apache2/conf/httpd.conf
+    ports:
+      - 80:80
+    restart: always
+    tty: true
