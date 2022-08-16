@@ -35,3 +35,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# .env file for docker #
+########################
+.env
