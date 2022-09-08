@@ -39,3 +39,7 @@ Thumbs.db
 # .env file for docker #
 ########################
 .env
+
+# .secrets file        #
+########################
+.secrets
